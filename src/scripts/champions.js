@@ -15,7 +15,7 @@ export async function fetchChampionInfo() {
 function displayChampionInfo(champInfo) {
     const champDiv = document.querySelector('.champions');
     // This is necessary because the JSON file is unorganized.
-    const champData = champInfo['setData'][4];
+    const champData = champInfo['setData'][5];
     const championsByCost = {
         1: [],
         2: [],
