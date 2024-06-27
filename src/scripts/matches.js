@@ -5,7 +5,7 @@ let myPuuid = '';
 export async function getPuuid(username) {
   const tagStartIdx = username.indexOf('#');
   const gameName = encodeURIComponent(username.slice(0, tagStartIdx));
-  const tagName = username.slice(tagStartIdx);
+  const tagName = username.slice(tagStartIdx + 1);
 
   const apiUrl = `https://corsproxy.io/?https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/${gameName}/${tagName}`;
   try {
