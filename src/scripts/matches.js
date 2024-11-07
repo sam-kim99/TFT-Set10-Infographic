@@ -1,4 +1,4 @@
-const myApiKey = 'RGAPI-e15b869a-85d4-4fde-9bf3-a7ba8f5cc981';
+const myApiKey = 'RGAPI-1bae664f-d9de-4e03-96c5-4c1350222b40';
 
 let myPuuid = '';
 
