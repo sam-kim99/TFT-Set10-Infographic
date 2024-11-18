@@ -1,4 +1,4 @@
-const myApiKey = 'RGAPI-a6e8e9ea-5658-4509-bbf3-4a65ab971e3f';
+const myApiKey = 'RGAPI-fd05f820-4a99-46eb-a0f1-27edf0f41e6b';
 let myPuuid = '';
 
 export async function getPuuid(username) {
