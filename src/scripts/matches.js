@@ -1,5 +1,5 @@
 const myApiKey = 'RGAPI-180c1034-4c80-4575-8ce6-1f11925c0fc4';
-let myPuuid = 's5aaz1s-df5Zsq';
+let myPuuid = '';
 
 export async function getPuuid(username) {
   const tagStartIdx = username.indexOf('#');
